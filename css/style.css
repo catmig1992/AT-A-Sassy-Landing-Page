@@ -52,8 +52,17 @@ a {
   text-decoration: none;
 }
 
-.hero {
-  background-color: aqua;
+.hero nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.hero nav li {
+  padding: 20px;
 }
 
 .m-1 {

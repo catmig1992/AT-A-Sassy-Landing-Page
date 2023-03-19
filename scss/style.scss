@@ -23,7 +23,20 @@ a {
 }
 
 .hero {
-  background-color: aqua;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 20px;
+    }
+  }
 
   // Also, take time to review the features of SCSS we've already covered:
   // 1. $variables
