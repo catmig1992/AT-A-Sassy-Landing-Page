@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  background-color: aqua;
+}
+
 .m-1 {
   margin: 1rem;
 }

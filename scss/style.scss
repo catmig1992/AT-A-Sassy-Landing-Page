@@ -22,14 +22,14 @@ a {
   text-decoration: none;
 }
 
-// .hero {
-// Take a look at the other files we've built already. How can they be useful here?
+.hero {
+  background-color: aqua;
 
-// Also, take time to review the features of SCSS we've already covered:
-// 1. $variables
-// 2. nesting (dont forget about the ampersand (&) parent selector!)
-// 3. At-Rules
-// }
+  // Also, take time to review the features of SCSS we've already covered:
+  // 1. $variables
+  // 2. nesting (dont forget about the ampersand (&) parent selector!)
+  // 3. At-Rules
+}
 
 // This code is related to some of the aspects of SCSS we have yet to cover.
 // While you don't have to mess with it, it would be advisable to attempt to understand its functionality.
