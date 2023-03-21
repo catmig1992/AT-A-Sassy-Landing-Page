@@ -55,6 +55,7 @@ a {
 .hero {
   background-color: #000814;
   color: white;
+  height: 600px;
 }
 .hero nav {
   display: flex;
@@ -68,11 +69,25 @@ a {
 .hero nav li {
   padding: 20px;
 }
-.hero img {
+.hero nav a {
+  color: white;
+}
+.hero nav a:hover {
+  color: #a2d0fc;
+}
+.hero-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.hero-content img {
   width: 50%;
 }
-.hero h1 {
+.hero-content h1 {
   font-size: 3em;
+  line-height: 1.2;
 }
 
 .m-1 {
