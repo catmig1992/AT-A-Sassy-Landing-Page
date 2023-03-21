@@ -23,6 +23,8 @@ a {
 }
 
 .hero {
+  @include set-bg($primary-color);
+
   nav {
     display: flex;
     align-items: center;
@@ -36,6 +38,14 @@ a {
     li {
       padding: 20px;
     }
+  }
+
+  img {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 
   // Also, take time to review the features of SCSS we've already covered:
